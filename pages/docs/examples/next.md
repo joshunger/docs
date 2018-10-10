@@ -22,15 +22,6 @@ export const meta = {
 To start, create a directory for the Next.js application to go into:
 <TerminalInput>mkdir next-app && cd next-app</TerminalInput>
 
-In order to use Next.js, we need to install Next itself, [React](https://facebook.github.io/react/), and [ReactDOM](https://facebook.github.io/react/docs/react-dom.html):
-
-<TerminalInput>
-yarn add next react react-dom
-</TerminalInput>
-<Caption>Installing <InlineCode>next</InlineCode>, <InlineCode>react</InlineCode>, and <InlineCode>react-dom</InlineCode> using <GenericLink href="https://yarnpkg.com">Yarn</GenericLink>.</Caption>
-
-> Alternatively, use [npm](npmjs.org) to install these packages by using `npm install next react react-dom --save`.
-
 Next, create the project's `package.json` in that directory:
 ```json
 {
@@ -48,6 +39,15 @@ Alternatively, you can statically export a Next.js application by using an addit
 ```
 "export": "next export"
 ```
+
+In order to use Next.js, we need to install Next itself, [React](https://facebook.github.io/react/), and [ReactDOM](https://facebook.github.io/react/docs/react-dom.html):
+
+<TerminalInput>
+yarn add next react react-dom
+</TerminalInput>
+<Caption>Installing <InlineCode>next</InlineCode>, <InlineCode>react</InlineCode>, and <InlineCode>react-dom</InlineCode> using <GenericLink href="https://yarnpkg.com">Yarn</GenericLink>.</Caption>
+
+> Alternatively, use [npm](npmjs.org) to install these packages by using `npm install next react react-dom --save`.
 
 ### Adding Content
 
